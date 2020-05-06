@@ -1,4 +1,4 @@
-import com.jenkins.libs.Constants
+import com.jenkins.libs
 
 def call(Map config=[:]) {
     if (config.type == "slack") {
