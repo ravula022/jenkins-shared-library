@@ -1,4 +1,4 @@
-@Library('jenkins-shared-library') _
+@Library('jenkins-shared-library')_
 import com.jenkins.libs.Constants
 
 def call(Map config=[:]) {
