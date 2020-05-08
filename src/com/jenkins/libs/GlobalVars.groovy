@@ -3,5 +3,9 @@ package com.jenkins.libs;
 
 class GlobalVars {
    static String foo = "bar"
-   //print "This is from SRC folder :: $foo"
+
+   // refer to this in a pipeline using:
+   //
+   // import com.cleverbuilder.GlobalVars
+   println GlobalVars.foo
 }
