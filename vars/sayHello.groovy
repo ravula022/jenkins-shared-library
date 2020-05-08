@@ -4,5 +4,5 @@ def call(String name = 'human') {
   echo "Hello, ${name}."
   //GlobalVars.
   //test()
-  println GlobalVars.foo
+  //println GlobalVars.foo
 }
