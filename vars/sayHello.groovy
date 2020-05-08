@@ -6,3 +6,9 @@ def call(String name = 'human') {
   //test()
   //println GlobalVars.foo
 }
+
+def wasFilePath(string filePath = '/home/webspere'){
+    echo "file Path :: ${filePath}"
+    ut = new GlobalVars()
+    ut.buildPath(filePath)
+}
