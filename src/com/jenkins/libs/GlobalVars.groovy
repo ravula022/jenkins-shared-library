@@ -7,5 +7,5 @@ class GlobalVars {
    // refer to this in a pipeline using:
    //
    // import com.cleverbuilder.GlobalVars
-   // println GlobalVars.foo
+   println GlobalVars.foo
 }
