@@ -1,5 +1,5 @@
 #!/usr/bin/env groovy
-package com.cleverbuilder
+package com.jenkins.libs;
 
 class GlobalVars {
    static String foo = "bar"
