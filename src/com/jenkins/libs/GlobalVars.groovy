@@ -9,10 +9,8 @@ def data(){
    // import com.cleverbuilder.GlobalVars
    //println GlobalVars.foo
 }
-
-
-   def test(){
+def test(){
     println "Test Method" + foo
-   }
 }
+
 
