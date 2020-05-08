@@ -2,6 +2,7 @@
 import com.jenkins.libs.GlobalVars;
 def call(String name = 'human') {
   echo "Hello, ${name}."
-  GlobalVars.test()
+  ut = new GlobalVars()
+  ut.test()
   //test()
 }
